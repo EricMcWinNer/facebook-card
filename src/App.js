@@ -9,6 +9,9 @@ import ThreeDots from "./components/ThreeDots"
 import "./App.css"
 import { createUseStyles } from "react-jss"
 
+{/* THIS COMPONENT USES JSS (CSS IN JS) FOR STYLING. YOU CAN READ MORE ABOUT IT HERE: https://cssinjs.org/?v=v10.4.0*/}
+{/* YOU CAN READ MORE ABOUT REACT-JSS HERE: https://cssinjs.org/react-jss?v=v10.4.0 */}
+
 const useStyles = createUseStyles({
   "@global": {
     body: {
@@ -74,6 +77,7 @@ function App(props) {
   return (
     <div className={classes.facebookCard}>
       <div className={classes.header}>
+        {/* Each of these are individual components that match the one on the blog post. */}
         <Name name="Eric McWinNEr" date="June 14, 2017" />
         <ThreeDots />
       </div>
