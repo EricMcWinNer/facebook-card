@@ -1,3 +1,11 @@
+# About this Project
+
+This project is an illustration of how components are composed in React. You can read the full blog post here: INSERT BLOG POST LINK
+
+It uses [React-JSS](https://cssinjs.org/react-jss?v=v10.4.0) for styling.
+
+# React Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
